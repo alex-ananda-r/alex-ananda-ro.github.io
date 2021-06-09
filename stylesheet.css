@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    position: relative;
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    height: 56px;
+    width: 260px;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* dropdown */
+.dropdown-item {
+    font-size: 15px;
+}
+
+.banner {
+    height: 640px;
+    background-image: url('../img/banner.JPG');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.banner .text {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #13fe82;
+    margin-bottom: 20px;
+}
+
+.about {
+    margin-bottom: 0px;
+}
+
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+.visi {
+    margin-bottom: 0px;
+}
+.visi p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #13fe82;
+    margin-bottom: 20px;
+}
+.misi {
+    margin-bottom: 100px;
+}
+.misi p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+.contact {
+    background-color: #f9f9f9;
+}
+
+.box {
+    color:#13fe82;
+}
+.box:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.box .col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.icon {
+    width:  70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin:0 auto;
+}
+
+.box .col-4 h4{
+    margin: 20px 0;
+    
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+/*desktop*/
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+    }
+
+    .navbar-brand img {
+        height: 76px;
+        width: 350px;
+    }
+
+    .dropdown-item {
+        text-transform: uppercase;
+    }
+
+    .banner .text {
+        font-size: 40px;
+        margin-top: 0px;
+        margin-left: 30px;
+        line-height: 55px;
+    }    
+}
